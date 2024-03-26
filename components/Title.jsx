@@ -1,8 +1,13 @@
-export default function Title() {
-  return (
+export default function Title({ title, subtitle, test }) {
+  return test ? (
     <>
-      <h1>Título</h1>
-      <h2>Subtitulo</h2>
+      <p>{title}</p>
+      <p>{subtitle}</p>
+    </>
+  ) : (
+    <>
+      <h1>{title}</h1>
+      <h2>{subtitle}</h2>
     </>
   );
 }
