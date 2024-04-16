@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #222;
+  color: #fff;
+}
+
+.paragraph {
+  margin: 0.5rem 0;
+  font-weight: 700;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: ease 400ms;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.error {
+  margin: 1rem 0 0;
+  font-weight: bold;
+  color: hsl(0, 100%, 50%);
+}
