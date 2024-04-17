@@ -28,6 +28,10 @@
   outline: none;
 }
 
+.card {
+  height: 40px;
+}
+
 .numbers {
   font-size: 1.525rem;
   font-weight: 700;

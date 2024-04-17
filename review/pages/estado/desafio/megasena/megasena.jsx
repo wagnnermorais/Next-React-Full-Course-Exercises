@@ -50,7 +50,7 @@ export default function Megasena() {
           />
         </div>
       </div>
-      <div>
+      <div className={styles.card}>
         <p className={styles.numbers}>{numbers.join(", ")}</p>
       </div>
       <div className={styles.buttonBox}>
