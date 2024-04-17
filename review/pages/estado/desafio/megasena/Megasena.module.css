@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #222;
+  color: #fff;
+}
+
+.title {
+  margin: 0 0 1rem;
+}
+
+.paragraph {
+  font-size: 1.425rem;
+  font-weight: 500;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.numberInput {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  outline: none;
+}
+
+.numbers {
+  font-size: 1.525rem;
+  font-weight: 700;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0 0;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  width: 150px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: ease 400ms;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
