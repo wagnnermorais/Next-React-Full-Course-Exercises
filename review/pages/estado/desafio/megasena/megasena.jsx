@@ -24,7 +24,7 @@ export default function Megasena() {
         randomGeneratedNumbers.push(randomNumber);
       }
     }
-    setNumbers(randomGeneratedNumbers);
+    setNumbers(randomGeneratedNumbers.sort((a, b) => a - b));
   };
 
   const handleResetCard = () => {
