@@ -1,4 +1,4 @@
-import Counter from "@/components/Counter";
+import Counter from "../../components/Counter";
 import { Component } from "react";
 
 export default class Contador extends Component {
