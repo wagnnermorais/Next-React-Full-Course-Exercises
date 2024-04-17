@@ -12,6 +12,11 @@
   margin: 0 0 1rem;
 }
 
+.cardContainer {
+  width: 35%;
+  text-align: center;
+}
+
 .paragraph {
   font-size: 1.425rem;
   font-weight: 500;

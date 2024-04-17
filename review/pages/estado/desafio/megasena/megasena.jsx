@@ -35,7 +35,7 @@ export default function Megasena() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Gerador de números Mega-Sena</h1>
-      <div style={{ width: "35%", textAlign: "center" }}>
+      <div className={styles.cardContainer}>
         <p className={styles.paragraph}>Quantos números você deseja?</p>
         <small className={styles.small}>
           O número mínimo de números é 6 e o máximo 16.
